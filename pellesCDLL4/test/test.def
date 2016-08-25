@@ -1,0 +1,6 @@
+LIBRARY  "test"
+EXPORTS
+	sum
+	sub
+	multi
+
