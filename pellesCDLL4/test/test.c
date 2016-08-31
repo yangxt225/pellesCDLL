@@ -1,6 +1,7 @@
 #include <windows.h>
 #include "test.h"
 
+// 动态库的入口函数
 BOOL APIENTRY DllMain(HINSTANCE hInstDLL, DWORD fdwReason, LPVOID lpvReserved)
 {
     switch (fdwReason)
